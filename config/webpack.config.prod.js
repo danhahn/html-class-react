@@ -154,7 +154,15 @@ module.exports = {
           limit: 10000,
           name: 'static/media/[name].[hash:8].[ext]'
         }
-      }
+      },
+      {
+        test: /\.md$/,
+        loader: "raw-loader"
+      },
+      {
+        test: /\.scss$/,
+        loaders: ["style", "css", "sass"]
+      },
     ]
   },
 

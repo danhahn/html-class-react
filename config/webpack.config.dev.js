@@ -146,7 +146,7 @@ module.exports = {
       },
       {
         test: /\.md$/,
-        loader: "html!markdown?gfm=false"
+        loader: "raw-loader"
       },
       {
         test: /\.scss$/,

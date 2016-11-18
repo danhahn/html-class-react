@@ -1,20 +1,24 @@
-const base = '/lessons/1';
+const base = '/lessons/2';
 
 export default [
   {
     url: `${base}/`,
-    text: 'test test test'
+    text: 'Link Tag'
   },
   {
-    url: `${base}/template`,
-    text: 'Template'
+    url: `${base}/folders`,
+    text: 'Folder'
   },
   {
-    url: `${base}/block`,
-    text: 'Block Elements'
+    url: `${base}/images`,
+    text: 'Images'
   },
   {
-    url: `${base}/inline`,
-    text: 'Inline Elements'
+    url: `${base}/image-types`,
+    text: 'Image Types'
+  },
+  {
+    url: `${base}/homework`,
+    text: 'Homework'
   },
 ];

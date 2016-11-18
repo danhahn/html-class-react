@@ -1,5 +1,9 @@
 $linkColor: #61DAFB;
 
+* {
+  box-sizing: border-box;
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -80,10 +84,21 @@ a.active {
 
 .page-layout {
   display: flex;
+  margin-bottom: 5em;
+  &.no-flex {
+    display: block;
+  }
   p {
     &:first-child {
       margin-top: 0;
     }
+  }
+}
+
+.page-content {
+  flex: 1;
+  ul, ol {
+    padding-left: 20px;
   }
 }
 
@@ -97,6 +112,31 @@ a.active {
       color: $linkColor;
       display: block;
       padding: .5em 0;
+    }
+  }
+}
+
+.page-layout {
+  pre {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    font-size: 1.2em;
+    background: #23241f;
+    color: #f8f8f2;
+  }
+  table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 100%;
+    th, td {
+      border: 1px solid gray;
+      padding: .5em;
+      text-align: left;
+    }
+    th {
+      background-color: #222;
+      color: white;
     }
   }
 }

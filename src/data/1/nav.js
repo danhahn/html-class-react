@@ -6,8 +6,12 @@ export default [
     text: 'Introduction'
   },
   {
+    url: `${base}/editors`,
+    text: 'Editors'
+  },
+  {
     url: `${base}/template`,
-    text: 'Template'
+    text: 'HTML Template'
   },
   {
     url: `${base}/block`,
@@ -16,5 +20,9 @@ export default [
   {
     url: `${base}/inline`,
     text: 'Inline Elements'
+  },
+  {
+    url: `${base}/classwork`,
+    text: 'Classwork'
   },
 ];

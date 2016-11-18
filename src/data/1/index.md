@@ -1,27 +1,108 @@
-Coughlin's first head coaching job was at the Rochester Institute of Technology from 1970–1973. He then returned to his alma mater where he was eventually promoted to offensive coordinator, a position he also held at Boston College where he coached Doug Flutie. He returned to the staff after his stint at the Rochester Institute of Technology. Coughlin's second stint started in 1974, and ended in 1980. He left the collegiate level to become a wide receivers coach in the NFL for the Philadelphia Eagles, and later the Green Bay Packers and New York Giants.
+## What is HTML?
+HTML or Hyper Text Markup Language is the building blocks of all web pages.  HTML uses tags to create element that are filled with content like text and images.  The elements are instructions to the web browser how to display the content on the screen.  
 
-While at New York, he was an assistant to Bill Parcells, and helped the Giants win Super Bowl XXV. Coughlin and Parcells have both made the NFL playoffs five times as Giants head coach, and the two Super Bowl titles they each have won with the Giants have occurred in their fourth and eighth seasons with the franchise, respectively.[2]
+Another way to think about it is HTML is a series of start and stop commands for the web browser.  The browser then renders that content to the specs of HTML.  
 
-##Boston College
+## The Three Buckets
+Modern web development uses the three bucket approach.  Each bucket adds another layer to the display of the page.
 
-After the 1990 season, Coughlin returned to Boston College to take on his second job as a head coach. In three seasons at Boston College, he turned the program into a consistent winner. Coughlin's tenure was capped with a 41–39 victory over \#1 ranked Notre Dame in 1993, the first time Boston College defeated Notre Dame.
+Bucket | Discription
+---|----
+HTML | HTML is the building blocks or scaffolding of the page.  
+CSS | CSS or Cascading Style Sheets is the presentation or the look and feel of the page.
+JavaScript | JavaScript is the action layer of the page.  We will not cover any JavaScript in this class.
 
-### Jacksonville Jaguars
+## The Tag
+There are over 80 different HTML tags that can be used.  They all have the same basic format.  Most tags have an opening and a closing tag.  
 
-Coughlin's success at Boston College led to his subsequent hiring as the first head coach of the NFL's expansion Jacksonville Jaguars. In eight seasons at Jacksonville, he helmed the most successful expansion team in league history. During Coughlin's tenure, the Jaguars made four consecutive playoff appearances and went to the AFC Championship Game twice. The first time, in only the second year of the team's existence (1996), the Jaguars qualified for the playoffs on the last day of the season and upset the heavily-favored Buffalo Bills and Denver Broncos on the road. He was named NFL Coach of the Year by United Press International. Coughlin would again take the Jaguars to the AFC Championship Game in 1999 after achieving a league-high 14–2 regular season record; the 14 wins stood as the most won by the current wave of expansion teams (the Jaguars, Carolina Panthers, Baltimore Ravens and Houston Texans) until the Panthers surpassed it in 2015. However, in both appearances in the championship game, the Jaguars were defeated: in 1996 by the New England Patriots, and in 1999, by the Tennessee Titans.
+```html
+<tag>content</tag>
+```
+All tags have brackets around them < and > that are used by the browser to know what is a tag and what is content.  Right after the opening bracket `<` is the tag name like
+h1 or p then the closing bracket `>`.
 
-Coughlin's Jaguars won 49 regular season games in his first five years as head coach, a remarkable average[according to whom?] for an expansion team of nearly ten wins per year. But the Jaguars' record for the next three years was only 19–29, and after a 6–10 finish in 2002, Coughlin was fired by owner Wayne Weaver. He finished his eight-year career in Jacksonville with a 68–60 regular season record and a 4–4 playoff record.
+```html
+<tag>
+```
 
-In 2011 (after selling the Jaguars to Shahid Khan) Weaver said when looking back on his tenure as owner, one of his biggest regrets was firing Coughlin.[3]
+If the tag has a closing tag it will match the opening tag but have an `/` after the opening bracket.  This is the indication to the browser to close the tag that was opened.  With out it the browser would never know when to stop.  
 
-### New York Giants
+    </tag>
 
-After being out of football in 2003, Coughlin was hired to replace Jim Fassel as head coach of the New York Giants in January 2004. He inherited a team that finished 4–12 in 2003.
+There are a few number of tags that do not have a closing tag because they do not wrap any content.  Older versions of HTML required that all tags be opened and closed.  This is no longer the case although you may still see a self-closing tag `<tag />` in code examples.  
 
-As Coughlin took over, the Giants were trying to put together a trade for the first pick in the draft. That year, the San Diego Chargers held that pick, and the expected selection was Mississippi quarterback Eli Manning, who had made his desire clear that he wanted to play for the Giants. On draft day the Giants drafted NC State's Philip Rivers with the fourth pick and traded him to the Chargers for Manning. Coughlin's incumbent quarterback, Kerry Collins, was incensed by the move and demanded his release, leaving the team without a veteran who could hold the fort until Manning was ready. To fill that role the Giants signed Kurt Warner, the former Super Bowl MVP who had been cut by the St. Louis Rams after he lost his starting job to Marc Bulger.
+## Attributes
+Sometimes a tag will need additional information to perform correctly.  Adding an attribute to the tag allows the developer to set the correct information on each tag.  
 
-Behind Warner, Coughlin led the Giants to five wins in their first seven games. However, with the team having lost their next two, Coughlin decided that Warner, who had been struggling, could no longer do the job and began starting the highly touted Manning beginning in the tenth game. The coach received criticism from some who felt the move amounted to a surrender of the 2004 season, as their 5–4 record meant the Giants were still in playoff contention. Manning did in fact struggle and the Giants' losing streak reached eight games before Manning defeated the Dallas Cowboys in the final game of the season.
+* Attributes will always go on the opening tag after the tag name.  There must be space between the tag name and the attribute name.
+* Attributes do not need to be closed.  In other words when you close a tag you close its entire attribute.  
+* If an attribute has a value the value must be quoted and you should use the double quote "
+* If an attribute has a value there must be an equal sign = between the attribute name and the value.
+* The order of the attribute does not matter.
+* The number of attributes that are used has decreased with newer versions of HTML.
 
-Another major impact Coughlin would have on the Giants was star running back Tiki Barber's fumbling problems. In the 2000–2004 seasons, Barber lost the ball 19 times. By simply teaching Barber to use a different grip on the ball, Coughlin reduced Barber's fumbles to only one in the 2005 season. Barber also saw his production increase significantly, setting career highs in rushing and total yards each year under Coughlin.
+### One Attribute
 
-Coughlin's early move to Manning, though, would pay dividends in 2005, as Manning and the Giants went 11–5 in Coughlin's second season and won the NFC East for the first time since 2000. It was also the Giants' first postseason appearance since making it as a wild card in 2002. However, a very poor performance by Manning, and a defense missing three starting linebackers, saw the Giants get shut out 23–0 at the hands of the Carolina Panthers at Giants Stadium. Following the game, Tiki Barber called out Coughlin and his offensive coordinator, partially because a Panthers player said that "We knew what they were going to do before they did it." Coughlin and Barber have yet to reconcile their differences, with Coughlin even refusing an interview by Tiki, then a sideline reporter for NBC, which would have been held prior to a Panthers-Giants game in 2008.[4]
+    <tag attribute="value">content</tag>
+
+### Two Attributes
+
+    <tag attribute="value" attribute="value">content</tag>
+
+## Block-level vs inline
+
+Most all tags fall in to one of two types of tags, inline or block.  Understanding how an element displays will help you choose the correct tag to use.  
+
+Block-level elements will
+* Fill the full width of the parent element
+* Force the content to its own line
+* Allows for padding and margin to be set on the top and bottom.
+
+### Examples
+`<p>`, `<div>`, `<header>`, `<nav>`, `<ul>`, `<li>`, and `<h1>`.
+
+Inline will
+* Only take up the space of the content
+* Wont force the content two its own line i.e. stay "inline"
+* Can't have padding on the top and bottom
+* Can't have a width or height set
+Examples
+`<a>`, `<span>`, `<strong>`, `<em>` and `<code>`.
+
+The block examples are structural elements, while the inline elements are text-based. This is an easy way to remember which is which.
+
+Generally speaking, you can put any block element inside another block element. You can also put any inline element inside a block element, as well as any inline element inside any other inline element. But you cannot put a block element inside an inline element. The paragraph tags also must be the inner most block element or in other words you cannot have a paragraph tag nested in a paragraph tag.
+
+## Nesting Elements
+If we think about html as the building blocks of a webpage we will have to nest elements within in each other to build the page correctly.  
+
+Think about it this way.  If we were to build a house we might start to build the ground floor.  We might add a kitchen, bathroom and living room all with in the ground floor.  We would not finish the floor until all the rooms are done.  
+
+    House
+        Floor
+            Kitchen
+            Bathroom
+            Living room
+        Floor
+            Bed Room
+            Bed Room
+            Bathroom
+
+If this was HTML it might look something like this
+
+    <house>
+        <floor>
+            <kitchen></kitchen>
+            <bathroom></bathroom>
+            <living></living>
+        </floor>
+        <floor>
+            <bed></bed>
+            <bed></bed>
+            <bathroom></bathroom>
+        </floor>
+    </house>
+
+You can see we open the house tag but do not close it until both floors are done.  
+
+First in, last out. The first tag you open is the last tag you close.  
