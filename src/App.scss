@@ -10,15 +10,17 @@ $linkColor: #61DAFB;
   min-height: 100vh;
 }
 
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.tag {
+  fill: $linkColor;
 }
 
+.letter {
+  fill: lighten($linkColor, 20%);
+}
+
+
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #222;  
   padding: 20px;
   color: white;
 }
@@ -47,11 +49,6 @@ $linkColor: #61DAFB;
 
 a.active {
   font-weight: bold;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 .main-content {
@@ -117,6 +114,15 @@ a.active {
 }
 
 .page-layout {
+  h1 {
+    font-weight: 100;
+    margin-top: 0;
+    color: $linkColor;
+  }
+  h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
   pre {
     display: block;
     overflow-x: auto;
@@ -126,7 +132,8 @@ a.active {
     color: #f8f8f2;
   }
   table {
-    border: 1px solid gray;
+    border: 1px solid #ddd;
+    background-color: rgba(221,221,221,.2);
     border-collapse: collapse;
     width: 100%;
     th, td {

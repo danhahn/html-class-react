@@ -3,7 +3,7 @@ import Layout from '../Layout/Layout';
 import moment from 'moment';
 import NavLink from '../NavLink/NavLink';
 
-import data from '../../data/lessons';
+import data from '../../lessons/lessons';
 
 const Lessons = React.createClass({
   getLesson() {

@@ -3,7 +3,7 @@ import NavLink from '../NavLink/NavLink';
 
 const SideNavBar = React.createClass({
   getNavFile(id=1) {
-    return require(`../../data/${id}/nav.js`).default;
+    return require(`../../lessons/${id}/nav.js`).default;
   },
   render () {
     const { id } = this.props;

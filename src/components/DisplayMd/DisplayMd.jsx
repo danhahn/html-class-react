@@ -28,12 +28,15 @@ const DisplayMd = React.createClass({
     return{ __html: this.getMarkdownFile(id, lesson)};
   },
   getMarkdownFile(id=1, file='index') {
-    return marked(require(`../../data/${id}/${file}.md`));
+    return marked(require(`../../lessons/${id}/${file}.md`));
   },
   render () {
-    const { id, lesson } = this.props;
+    const { id, lesson, title } = this.props;
     return (
-      <div className="page-content" dangerouslySetInnerHTML={this.rawMarkup(id, lesson)} />
+      <div>
+        <h1>{title}</h1>
+        <div className="page-content" dangerouslySetInnerHTML={this.rawMarkup(id, lesson)} />
+      </div>
     )
   }
 });
