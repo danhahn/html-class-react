@@ -3,10 +3,14 @@ const classInfo = {
   startDate: '2017-01-23 20:00:00',
   noClass: [
     '2017-03-06 20:00:00',
-    '2017-04-03 20:00:00',
+    '2017-04-17 20:00:00',
   ],
   intros: [
-    {id: 1, text: 'Introduction to HTML, Web Browsers, Standards'},
+    {
+      id: 1,
+      text: 'Introduction to HTML, Web Browsers, Standards',
+      lessonInfo: ['html'],
+    },
     {id: 2, text: 'This week we will talk about how to create links and embed images.'},
     {id: 3, text: 'This week we start to talk about CSS.'},
     {id: 4, text: 'This week We will dive back into CSS and talk about test, font, borders, margin and padding.'},

@@ -6,17 +6,13 @@ import NavLink from '../NavLink/NavLink';
 import data from '../../lessons/lessons';
 
 const Lessons = React.createClass({
-  getLesson() {
+  getLessons() {
     const { startDate, weeks, noClass, intros } = data;
 
     const momentNoClass = noClass.map( c => moment(c).format('MMMM D, YYYY'));
     let lessons = [];
     let i = 0;
     let week = 0;
-
-    // const checkNoDate = function(date, noClass) {
-    //
-    // }
 
     while (i < weeks) {
       const date = moment(startDate).day((week * 7) + 1);
@@ -43,7 +39,7 @@ const Lessons = React.createClass({
     return (
       <Layout>
         <h1>Lessons</h1>
-        {this.getLesson().map( ({ lesson, date, text }, i) => (
+        {this.getLessons().map( ({ lesson, date, text }, i) => (
           <div key={i}>
             <h2><NavLink to={`/lessons/${i+1}/`}>Lesson {lesson} - {date.format('MMMM D, YYYY')}</NavLink></h2>
             <p>{text}</p>

@@ -1,0 +1,23 @@
+.InfoTags {
+  display: flex;
+  margin-bottom: .5em;
+  .InfoTag {
+    border: 1px solid;
+    padding: .1em .5em;
+    margin-right: .2em;
+    border-radius: 3px;
+    &.html {
+      background: #E44D26;
+      border-color: darken(#E44D26, 20%);
+    }
+    &.css {
+      background-color: #1572B6;
+      border-color: darken(#1572B6, 20%);
+
+    }
+    &.js {
+      background-color: #F1D600;
+      border-color: darken(#F1D600, 20%);      
+    }
+  }
+}
