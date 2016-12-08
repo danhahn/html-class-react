@@ -35,7 +35,6 @@ const Home = React.createClass({
       }
       week++;
     }
-    console.log(lessons);
     return lessons;
   },
   render () {
@@ -49,7 +48,7 @@ const Home = React.createClass({
               <date>{date.format('MMMM D, YYYY')}</date>
               <p>{text}</p>
               <InfoTags info={info}/>
-              <NavLink to={`/lessons/${i+1}/`} className="btn btn-success">View Lesson</NavLink>
+              <NavLink to={`/lessons/${i+1}/`} className="btn btn-primary">View Lesson</NavLink>
             </div>
           ))}
         </div>

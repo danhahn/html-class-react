@@ -1,4 +1,4 @@
-$linkColor: #61DAFB;
+@import "styles/vars";
 
 * {
   box-sizing: border-box;
@@ -18,9 +18,14 @@ $linkColor: #61DAFB;
   fill: lighten($linkColor, 20%);
 }
 
+.btn-primary {
+  background-color: $linkColor;
+  border-color: darken($linkColor, 10%);
+  color: white;
+}
 
 .App-header {
-  background-color: #222;  
+  background-color: #222;
   padding: 20px;
   color: white;
 }
@@ -29,39 +34,17 @@ $linkColor: #61DAFB;
   font-size: large;
 }
 
-.global-nav {
-
-}
-
-.global-nav-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
-
-.global-nav a {
-  display: block;
-  padding: .5em 1em;
-  color: $linkColor;
-  text-decoration: none;
-}
-
 a.active {
   font-weight: bold;
 }
 
 .main-content {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   flex: 1;
-}
-
-.global-footer {
-    background-color: #222;
-    min-height: 150px;
-    padding: 20px;
-    color: white;
+  @media screen and (max-width: $break-large) {
+    padding: 0 1em;
+  }
 }
 
 .photo {
@@ -81,6 +64,9 @@ a.active {
 
 .page-layout {
   display: flex;
+  @media screen and (max-width: $break-medium) {
+    flex-direction: column;
+  }
   margin-bottom: 5em;
   &.no-flex {
     display: block;
@@ -96,20 +82,6 @@ a.active {
   flex: 1;
   ul, ol {
     padding-left: 20px;
-  }
-}
-
-.page-nav {
-  flex: 0 0 200px;
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    a {
-      color: $linkColor;
-      display: block;
-      padding: .5em 0;
-    }
   }
 }
 
@@ -140,10 +112,22 @@ a.active {
       border: 1px solid gray;
       padding: .5em;
       text-align: left;
+      &:first-child {
+        width: 30%;
+      }
+      &:last-child {
+        width: 70%;
+      }
     }
     th {
       background-color: #222;
       color: white;
     }
   }
+}
+
+code {
+    color: $linkColor;
+    background-color: lighten($linkColor, 30%);
+    font-family: monospace;
 }

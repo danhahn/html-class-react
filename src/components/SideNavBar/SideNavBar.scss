@@ -1,0 +1,49 @@
+@import "../../styles/vars";
+
+.page-nav {
+  flex: 0 0 200px;
+  @media screen and (max-width: $break-medium) {
+    flex: 1;
+  }
+  @media screen and (max-width: $break-small) {
+    order: 2;
+    border-top: 3px solid lightgray;
+    padding-top: 1em;
+  }
+  // @media screen and (max-width: $break-large) {
+  //   flex: 1 1 48%;
+  //   &:nth-child(2n) {
+  //     margin-right: 0
+  //   }
+  // }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    a {
+      color: $linkColor;
+      display: block;
+      padding: .5em 0;
+    }
+    @media screen and (max-width: $break-medium) {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 1em;
+      a {
+        padding: .5em 1em;
+        color: white;
+        background-color: $linkColor;
+        border-radius: 4px;
+        margin-right: .5em;
+        margin-bottom: .5em;
+        .active {
+          font-weight: normal;
+        }
+      }
+    }
+    @media screen and (max-width: $break-small) {
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+  }
+}

@@ -6,18 +6,33 @@
     padding: .1em .5em;
     margin-right: .2em;
     border-radius: 3px;
+    padding-right: 20px;
+    color: white;
+    text-transform: uppercase;
     &.html {
-      background: #E44D26;
-      border-color: darken(#E44D26, 20%);
+      background-color: lighten(#E44D26, 20%);
+      border-color: #E44D26;
+      background-image: url(/images/logos/html-5.svg);
+      background-size: 12px 17px;
+      background-repeat: no-repeat;
+      background-position: 48px center;
     }
     &.css {
-      background-color: #1572B6;
-      border-color: darken(#1572B6, 20%);
-
+      background-color: lighten(#1572B6, 20%);
+      border-color: #1572B6;
+      background-image: url(/images/logos/css-3.svg);
+      background-size: 12px 17px;
+      background-repeat: no-repeat;
+      background-position: 40px center;
     }
     &.js {
-      background-color: #F1D600;
-      border-color: darken(#F1D600, 20%);      
+      color: black;
+      background-color: lighten(#F1D600, 20%);
+      border-color: #F1D600;
+      background-image: url(/images/logos/javascript.svg);
+      background-size: 12px;
+      background-repeat: no-repeat;
+      background-position: 26px center;
     }
   }
 }

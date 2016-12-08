@@ -10,7 +10,7 @@ export function getLesson(data) {
 
   while (i < weeks) {
     const date = moment(startDate).day((week * 7) + 1);
-    console.log(week * 7 + 1);
+    
     const hasNoClass = momentNoClass.includes(date.format('MMMM D, YYYY'));
     if(!hasNoClass) {
       lessons = [

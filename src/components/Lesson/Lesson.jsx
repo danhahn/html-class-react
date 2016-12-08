@@ -1,16 +1,13 @@
 import React from 'react';
+import moment from 'moment';
 import Layout from '../Layout/Layout';
 import DisplayMd from '../DisplayMd/DisplayMd';
 import SideNavBar from '../SideNavBar/SideNavBar';
 
-
-
 const Lessons = React.createClass({
   getNavFile(id=1, lesson=null) {
-
     const { text } = require(`../../lessons/${id}/nav.js`).default
       .find((data) => data.id === lesson);
-
     return text;
   },
   render () {

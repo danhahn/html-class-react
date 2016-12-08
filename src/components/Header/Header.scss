@@ -1,0 +1,25 @@
+@import "../../styles/vars";
+
+.Header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  h2 {
+    margin-left: 1em;
+  }
+  .main-content {
+    padding: 0;
+  }
+  .header-content {
+    @media screen and (max-width: $break-small) {
+      flex-direction: column;
+      svg {
+        height: 50px;
+        width: 160px;
+      }
+      h2 {
+        margin: 0;
+      }
+    }
+  }
+}

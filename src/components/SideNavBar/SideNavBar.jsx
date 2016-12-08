@@ -1,6 +1,8 @@
 import React from 'react';
 import NavLink from '../NavLink/NavLink';
 
+import './SideNavBar.scss';
+
 const SideNavBar = React.createClass({
   getNavFile(id=1) {
     return require(`../../lessons/${id}/nav.js`).default;
