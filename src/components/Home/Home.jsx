@@ -29,6 +29,7 @@ const Home = React.createClass({
             date,
             text: intros[i].text,
             info: intros[i].info,
+            id: intros[i].id,
           }
         ];
         i++;
@@ -42,13 +43,12 @@ const Home = React.createClass({
       <Layout>
         <h1>Home</h1>
         <div className="homepage">
-          {this.getLessons().map( ({ lesson, date, text, info }, i) => (
+          {this.getLessons().map( ({ lesson, date, text, info, id }, i) => (
             <div key={i} className="homepage-item">
-              <h2><NavLink to={`/lessons/${i+1}/`}>Lesson {lesson}</NavLink></h2>
-              <date>{date.format('MMMM D, YYYY')}</date>
+              <h2><NavLink to={`/lessons/${id}/`}>Lesson {lesson}</NavLink></h2>
               <p>{text}</p>
               <InfoTags info={info}/>
-              <NavLink to={`/lessons/${i+1}/`} className="btn btn-primary">View Lesson</NavLink>
+              <NavLink to={`/lessons/${id}/`} className="btn btn-primary">View Lesson</NavLink>
             </div>
           ))}
         </div>

@@ -21,9 +21,4 @@ export default [
     url: `${base}/padding-margin`,
     text: 'Padding and Margin'
   },
-  {
-    id: 'homework',
-    url: `${base}/homework`,
-    text: 'Homework'
-  },
 ];

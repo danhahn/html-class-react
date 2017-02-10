@@ -21,9 +21,4 @@ export default [
     url: `${base}/css`,
     text: 'CSS2 Reference'
   },
-  {
-    id: 'homework',
-    url: `${base}/homework`,
-    text: 'Homework'
-  },
 ];

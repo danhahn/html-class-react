@@ -21,9 +21,4 @@ export default [
     url: `${base}/image-types`,
     text: 'Image Types'
   },
-  {
-    id: 'homework',
-    url: `${base}/homework`,
-    text: 'Homework'
-  },
 ];

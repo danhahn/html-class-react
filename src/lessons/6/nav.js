@@ -4,7 +4,7 @@ export default [
   {
     id: null,
     url: `${base}/`,
-    text: 'Box Model'
+    text: 'Flexbox'
   },
   {
     id: 'pseudo',
@@ -15,15 +15,5 @@ export default [
     id: 'floats',
     url: `${base}/floats`,
     text: 'Floats'
-  },
-  {
-    id: 'clear-fix',
-    url: `${base}/clear-fix`,
-    text: 'Clear Fix'
-  },
-  {
-    id: 'homework',
-    url: `${base}/homework`,
-    text: 'Homework'
   },
 ];

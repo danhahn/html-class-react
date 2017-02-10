@@ -17,8 +17,10 @@ To create any `html` file you need to `save as` `.html` to make the file in to a
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
 </head>
 <body>
 
@@ -42,6 +44,17 @@ Now what we have the template created we just need to save a copy of it.
 
 ## Parts of the template
 
+tag | description
+---|------
+`<!DOCTYPE html>` | defines the version of html.
+`<html lang="en">` | defines the html on the page.
+`<head>` | The HTML <head> element provides general information (metadata) about the document, including its title and links to its scripts and style sheets.
+`<meta charset="UTF-8">` | allows us to use any UTF-8 character
+`<meta name="viewport" ...>` | displays correctly on a any mobile devices
+`<meta http-equiv="X-UA-Compatible" ...>` | Used for IE edge
+`<title>` | The `<title>` element defines the title of the document, shown in a browser's title bar or on the page's tab. It can only contain text, and any contained tags are ignored.
+`<body>` | The `<body>` element represents the content of an HTML document. There can be only one <body> element in a document. The `<body>` is a child of `<html>`.
+
 ### DOCTYPE
 
 `<!DOCTYPE>` informs the browser which version of HTML you used to write the document. Doctype is a declaration, not a tag.
@@ -63,6 +76,3 @@ The `<body>` element represents the content of an HTML document. There can be on
 ### title
 
 The `<title>` element defines the title of the document, shown in a browser's title bar or on the page's tab. It can only contain text, and any contained tags are ignored.  The `<title>` is a child of `<head>`.
-
-
-[Download a copy of the template](template.txt)

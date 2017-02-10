@@ -53,10 +53,7 @@ const Nav = React.createClass({
               </li>
               <li>
                 <NavLink onClick={this.handleClick} to="/tag-list">Tag list</NavLink>
-              </li>
-              <li>
-                <NavLink onClick={this.handleClick} to="/about">About</NavLink>
-              </li>
+              </li>          
               <li>
                 <NavLink onClick={this.handleClick} to="/ascii">Ascii Codes</NavLink>
               </li>

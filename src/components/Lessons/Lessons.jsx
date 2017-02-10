@@ -41,7 +41,7 @@ const Lessons = React.createClass({
         <h1>Lessons</h1>
         {this.getLessons().map( ({ lesson, date, text }, i) => (
           <div key={i}>
-            <h2><NavLink to={`/lessons/${i+1}/`}>Lesson {lesson} - {date.format('MMMM D, YYYY')}</NavLink></h2>
+            <h2><NavLink to={`/lessons/${i+1}/`}>Lesson {lesson}</NavLink></h2>
             <p>{text}</p>
           </div>
         ))}

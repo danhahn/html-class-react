@@ -8,14 +8,14 @@ The `<p>` element (or HTML Paragraph Element) represents a paragraph of text. Pa
 
 ### Example
 
-```xml
+```html
 <p>Example content.</p>
 ```
 <p>Example content.</p>
 
 ### Usage
 
-```xml
+```html
 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
 
 <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisit.</p>
@@ -51,7 +51,7 @@ Heading elements implement six levels of document headings, `<h1>` is the most i
 
 ### Usage
 
-```
+```html
 <h1>Heading elements</h1>
 <h2>Summary</h2>
 <p>Some text here...</p>
@@ -85,7 +85,7 @@ Do not use `<br>` to increase the gap between lines of text; use the CSS `margin
 
 ### Usage
 
-```
+```html
 <p>
 By Sam Jones<br>
 June 30, 2004

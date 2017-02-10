@@ -1,5 +1,4 @@
 import React from 'react';
-import moment from 'moment';
 import Layout from '../Layout/Layout';
 import DisplayMd from '../DisplayMd/DisplayMd';
 import SideNavBar from '../SideNavBar/SideNavBar';
@@ -14,7 +13,7 @@ const Lessons = React.createClass({
     const { id, lesson } = this.props.params;
     return (
       <Layout>
-        <h1>Lesson {id}</h1>
+        <h1>Lesson</h1>
         <div className="page-layout">
           <SideNavBar
             id={id}

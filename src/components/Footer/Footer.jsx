@@ -7,7 +7,7 @@ const Footer = React.createClass({
     return (
       <div className="global-footer">
         <Layout>
-          <div style={{display: 'flex'}}>            
+          <div style={{display: 'flex'}}>
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100" height="31" viewBox="0 0 430 133" preserveAspectRatio="xMidYMid meet">
               <g transform="translate(0.000000,133.000000) scale(0.100000,-0.100000)" fill="#fff" stroke="none">
                 <path d="M3311 1238 c-10 -24 -127 -296 -260 -604 -132 -309 -241 -564 -241 -568 0 -3 40 -6 88 -6 l88 0 259 603 c142 331 260 605 262 610 2 4 -37 7 -87 7 l-91 0 -18 -42z" className="slash"></path>
@@ -18,7 +18,7 @@ const Footer = React.createClass({
                 <path d="M1405 943 c8 -21 75 -191 149 -378 l134 -340 109 -3 108 -2 147 377 147 378 -96 3 c-60 2 -99 -1 -103 -8 -4 -6 -49 -130 -101 -275 -52 -146 -96 -265 -99 -265 -3 0 -14 24 -24 53 -10 28 -54 152 -98 275 l-80 222 -104 0-104 0 15 -37z" className="letter"></path>
               </g>
             </svg>
-            <p>&copy; 2016 Daniel Hahn</p>
+            <p>&copy; 2017 Daniel Hahn</p>
           </div>
         </Layout>
       </div>

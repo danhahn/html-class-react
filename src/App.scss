@@ -22,6 +22,17 @@
   background-color: $linkColor;
   border-color: darken($linkColor, 10%);
   color: white;
+  &:hover {
+    background-color: darken($linkColor, 10%);
+    border-color: darken($linkColor, 20%);
+
+  }
+}
+
+h2 {
+  a {
+    color: $linkColor;
+  }
 }
 
 .App-header {

@@ -108,6 +108,9 @@ When two or more consecutive elements are floated in the same direction they wil
 
 
 <style>
+  table td {
+    width: 25%;
+  }
   table td:nth-child(4) {
     white-space: nowrap;
   }
