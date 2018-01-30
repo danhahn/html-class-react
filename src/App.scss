@@ -10,14 +10,6 @@
   min-height: 100vh;
 }
 
-.tag {
-  fill: $linkColor;
-}
-
-.letter {
-  fill: lighten($linkColor, 20%);
-}
-
 .btn-primary {
   background-color: $linkColor;
   border-color: darken($linkColor, 10%);
@@ -138,7 +130,10 @@ a.active {
 }
 
 code {
-    color: $linkColor;
-    background-color: lighten($linkColor, 30%);
-    font-family: monospace;
+  padding: .2rem .4rem;
+  font-size: 90%;
+  border-radius: .25rem;
+  color: $linkColor;
+  background-color: lighten($linkColor, 50%);
+  font-family: monospace;
 }

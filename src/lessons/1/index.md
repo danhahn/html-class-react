@@ -15,13 +15,13 @@ JavaScript | JavaScript is the action layer of the page.  We will not cover any 
 ## The Tag
 There are over 80 different HTML tags that can be used.  They all have the same basic format.  Most tags have an opening and a closing tag.  
 
-```html
+```HTML
 <tag>content</tag>
 ```
 All tags have brackets around them < and > that are used by the browser to know what is a tag and what is content.  Right after the opening bracket `<` is the tag name like
 h1 or p then the closing bracket `>`.
 
-```html
+```HTML
 <tag>
 ```
 

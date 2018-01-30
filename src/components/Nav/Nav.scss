@@ -1,6 +1,7 @@
 @import "../../styles/vars";
 
 .global-nav {
+  background-color: $primaryColor;
   .nav {
     @media screen and (max-width: $break-medium) {
       display: block;
@@ -37,7 +38,7 @@
     @media screen and (max-width: $break-medium) {
       padding: .5em .5em;
     }
-    color: $linkColor;
+    color: $white;
     text-decoration: none;
   }
   .trigger {

@@ -1,25 +1,19 @@
 @import "../../styles/vars";
 
 .Header {
-  background-color: #222;
-  padding: 20px;
-  color: white;
-  h2 {
-    margin-left: 1em;
+  background-color: $black;
+  color: $white;
+  &__content {
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    & > * {
+      margin-right: 1em;
+    }
   }
-  .main-content {
-    padding: 0;
-  }
-  .header-content {
-    @media screen and (max-width: $break-small) {
-      flex-direction: column;
-      svg {
-        height: 50px;
-        width: 160px;
-      }
-      h2 {
-        margin: 0;
-      }
+  &__title {
+    h1, p {
+      margin: 0;
     }
   }
 }

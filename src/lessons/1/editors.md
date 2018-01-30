@@ -1,6 +1,6 @@
 When you are writing HTML you can use a simple text editor to write your HTML but this can be a git of a frustrating experience because it will not show any errors.
 
-Below are some options for better HTML editors.  In class we will be using **Sublime Text**.
+Below are some options for better HTML editors.  In class we will be using **Atom**.
 
 ## [Atom](http://atom.io/)
 

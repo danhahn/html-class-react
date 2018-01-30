@@ -8,19 +8,8 @@ The `<p>` element (or HTML Paragraph Element) represents a paragraph of text. Pa
 
 ### Example
 
-```html
-<p>Example content.</p>
-```
-<p>Example content.</p>
-
-### Usage
-
-```html
-<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-
-<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisit.</p>
-
-```
+<iframe height='265' scrolling='no' title='Paragraph' src='//codepen.io/danhahn/embed/xrwKMe/?height=265&theme-id=light&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/xrwKMe/'>Paragraph</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ## Headings
 
@@ -33,39 +22,13 @@ Heading elements implement six levels of document headings, `<h1>` is the most i
 
 ### Example
 
-```html
-<h1>Heading level 1</h1>
-<h2>Heading level 2</h2>
-<h3>Heading level 3</h3>
-<h4>Heading level 4</h4>
-<h5>Heading level 5</h5>
-<h6>Heading level 6</h6>
-```
-
-<h1 style="all: initial;font-size: 2em; font-weight: bold;">Heading level 1</h1>
-<h2 style="all: initial;font-size: 1.5em; font-weight: bold;">Heading level 2</h2>
-<h3 style="all: initial;font-size: 1.17em; font-weight: bold;">Heading level 3</h3>
-<h4 style="all: initial;font-size: 1em; font-weight: bold;">Heading level 4</h4>
-<h5 style="all: initial;font-size: .83em; font-weight: bold;">Heading level 5</h5>
-<h6 style="all: initial;font-size: .67em; font-weight: bold;">Heading level 6</h6>
+<iframe height='265' scrolling='no' title='Headline' src='//codepen.io/danhahn/embed/KqdPrZ/?height=265&theme-id=light&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/KqdPrZ/'>Headline</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ### Usage
 
-```html
-<h1>Heading elements</h1>
-<h2>Summary</h2>
-<p>Some text here...</p>
-
-<h2>Examples</h2>
-<h3>Example 1</h3>
-<p>Some text here...</p>
-
-<h3>Example 2</h3>
-<p>Some text here...</p>
-
-<h2>See also</h2>
-<p>Some text here...</p>
-```
+<iframe height='265' scrolling='no' title='Headline Example' src='//codepen.io/danhahn/embed/weKwbe/?height=265&theme-id=light&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/weKwbe/'>Headline Example</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ### Line break
 
@@ -75,53 +38,17 @@ Do not use `<br>` to increase the gap between lines of text; use the CSS `margin
 
 ### Example
 
-```html
-<p>111 5th Ave<br>New York, NY</p>
-```
+<iframe height='265' scrolling='no' title='Line Break' src='//codepen.io/danhahn/embed/JJYjEo/?height=265&theme-id=light&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/JJYjEo/'>Line Break</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
-<p>111 5th Ave<br>New York, NY</p>
-
-**Note:** older versions of html it was required to close all tags so you might see a break tag displayed like this `<br />`.  
-
-### Usage
-
-```html
-<p>
-By Sam Jones<br>
-June 30, 2004
-</p>
-```
+**Note:** `address` tag is a new block element used to define an address.
 
 ## Lists
 
 The `<ol>` Element (or Ordered List) represents an ordered list of items. Typically, ordered-list items are displayed with a preceding numbering, which can be of any form, like numerals, letters or Romans numerals or even simple bullets.
 
-**Ordered List**
-
-### Example
-```html
-<ol>
-  <li>item 1</li>
-  <li>item 2</li>
-</ol>
-```
-
-1. item 1
-2. item 2
-
-**Unordered List**
-
-The `<ul>` element (or Unordered List) represents an unordered list of items, namely a collection of items that do not have a numerical ordering, and their order in the list is meaningless.
-
-### Example
-
-<ul>
-  <li>item 1</li>
-  <li>item 2</li>
-</ul>
-
-* item 1
-* item 2
+<iframe height='350' scrolling='no' title='Lists' src='//codepen.io/danhahn/embed/KqdKvG/?height=265&theme-id=light&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/KqdKvG/'>Lists</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 **Note:** This style of the bullets or numbers is not defined in the HTML description of the page, but in its associated CSS, using the `list-style-type` property.
 
@@ -129,21 +56,8 @@ The `<li>` element (List Item) is used to represent an item in a list.
 
 There is no limitation to the depth and overlap of lists defined with the `<ol>` and `<ul>` elements.
 
-### Usage
-
-```html
-<ul>
-	<li>Red</li>
-	<li>Blue
-		<ol>
-			<li>Light Blue</li>
-			<li>Dark Blue</li>
-			<li>Blue Green</li>
-		</ol>
-	</li>
-	<li>Green</li>
-</ul>
-```
+<iframe height='280' scrolling='no' title='Nested List' src='//codepen.io/danhahn/embed/owjNoL/?height=265&theme-id=light&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/owjNoL/'>Nested List</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ## Blockquote
 
@@ -151,69 +65,17 @@ The `<blockquote>` Element (or HTML Block Quotation Element) indicates that the 
 
 ### Example
 
-```html
-<blockquote>
-  <p>I like to read, especially nonfiction. I love learning, so I study languages, cook, learn basic HTML, and enjoy other activities that stimulate communication and the dark recesses of my musician's brain.</p>
-</blockquote>
-```
-
-<blockquote>
-	<p>I like to read, especially nonfiction. I love learning, so I study languages, cook, learn basic HTML, and enjoy other activities that stimulate communication and the dark recesses of my musician's brain.</p>
-</blockquote>
-
-### Usage
-
-```html
-<p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
-
-<blockquote>
-	<p>In '93 to '94, every browser had its own flavor of HTML. So it was very difficult to know what you could put in a Web page and reliably have most of your readership see it.</p>
-</blockquote>
-
-<p>He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly.</p>
-```
+<iframe height='470' scrolling='no' title='Blockquote' src='//codepen.io/danhahn/embed/gRaOKo/?height=408&theme-id=light&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/gRaOKo/'>Blockquote</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ## Page divisions
 
 The `<div>` element (or Document Division Element) is the generic container for flow content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. It should be used only when no other semantic element (such as `<article>` or `<nav>`) is appropriate.
 
-```html
-<div>
-  <h2>Section Title</h2>
-  <p>Section Content.</p>
-  <p>Section Content.</p>
-  <p>Section Content.</p>
-</div>
-```
-
-<div>
-	<h2>Section Title</h2>
-	<p>Section Content.</p>
-	<p>Section Content.</p>
-	<p>Section Content.</p>
-</div>
+<iframe height='428' scrolling='no' title='Div' src='//codepen.io/danhahn/embed/bRVGxj/?height=428&theme-id=light&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/bRVGxj/'>Div</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 **Note:** The `<div>` does not have any visual changes.  All changes will be applied in the css.
-
-### Example
-
-```html
-<div>
-	<h1>Lorem ipsum dolor.</h1>
-	<div>
-		<h2>Lorem ipsum dolor.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, a.</p>
-		<p>Sequi, rerum ratione ducimus unde porro quibusdam veritatis vitae iure?</p>
-		<p>Impedit quas debitis, non, ratione quisquam sequi ipsa adipisci? Incidunt.</p>
-	</div>
-	<div>
-		<h2>A, rerum, debitis.</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, cumque.</p>
-		<p>Accusantium expedita quae nostrum delectus sapiente debitis perspiciatis veniam officia.</p>
-		<p>Numquam perspiciatis culpa porro atque sint officia illo, qui eos?</p>
-	</div>
-</div>
-```
 
 ## Div like elements
 
@@ -301,36 +163,5 @@ The HTML `<aside>` element represents a section of the page with content connect
 
 You can mix and match the element in any way that works for your design.  Most of the visual changes will be handled with your CSS.
 
-```html
-<section>
-	<header>
-		<h1>Polar vortex</h1>
-	</header>
-	<nav>
-		Navigation goes here!
-	</nav>
-	<section>
-		<article>
-			<p>
-				By Dan Hahn<br>
-				<span>January 27, 2016</span>
-			</p>
-			<p>A <strong>polar vortex</strong> (<em>also known as a polar cyclone, polar low, or a circumpolar whirl</em>) </p>
-			<p>The Arctic vortex in the Northern Hemisphere has two centers, one near Baffin Island and the other over </p>
-			<h2>Contents</h2>
-		</article>
-		<aside>
-			<ul>
-				<li>History</li>
-				<li>Identification</li>
-				<li>Duration and power</li>
-				<li>Climate change</li>
-				<li>Ozone depletion</li>
-			</ul>
-		</aside>
-	</section>
-	<footer>
-		<p>&copy; 2013 My site</p>
-	</footer>
-</section>
-```
+<iframe height='680' scrolling='no' title='Div Like Tags' src='//codepen.io/danhahn/embed/PjPwyv/?height=265&theme-id=light&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/PjPwyv/'>Div Like Tags</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>

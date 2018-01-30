@@ -7,3 +7,8 @@ desktop  |  mobile
 ![](/images/1/weekend20176.png)  |  ![](/images/1/weekend20175.png)
 ![](/images/1/weekend20173.png)  |  ![](/images/1/weekend20174.png)
 ![](/images/1/weekend20172.png)  |  ![](/images/1/weekend20171.png)
+
+<style>
+  table:first-of-type tr td:nth-child(1) {width: 100%; vertical-align: top;}
+  table:first-of-type tr td:nth-child(1) img {max-width: 100%;}
+</style>

@@ -2,6 +2,9 @@ An inline element is an element that when the content is wrapped with that tag d
 
 Inline elements must be wrapped with a block element or can not be a child of another inline elements.
 
+<iframe height='265' scrolling='no' title='Inline' src='//codepen.io/danhahn/embed/ZybGpX/?height=265&theme-id=light&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/danhahn/pen/ZybGpX/'>Inline</a> by Dan Hahn (<a href='https://codepen.io/danhahn'>@danhahn</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
 ## strong
 
 The HTML Strong Element `<strong>` gives text strong importance, and is typically displayed in bold.
